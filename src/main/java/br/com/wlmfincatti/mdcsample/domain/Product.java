@@ -15,5 +15,5 @@ public class Product {
 
     private String name;
     private Integer amount;
-    private BigDecimal value;
+    private BigDecimal price;
 }

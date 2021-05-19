@@ -1,4 +1,4 @@
-package br.com.wlmfincatti.mdcsample.entrypoit.rest;
+package br.com.wlmfincatti.mdcsample.entrypoint.rest;
 
 import br.com.wlmfincatti.mdcsample.domain.Product;
 import br.com.wlmfincatti.mdcsample.usecase.UseCaseGetProducts;

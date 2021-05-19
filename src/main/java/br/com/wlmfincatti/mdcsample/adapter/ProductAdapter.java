@@ -11,7 +11,7 @@ public class ProductAdapter {
     public static Product convert(ProductResponse productResponse) {
         return Product
                 .builder()
-                .amount(productResponse.getAmount())
+                .price(productResponse.getPrice())
                 .name(productResponse.getName())
                 .build();
     }

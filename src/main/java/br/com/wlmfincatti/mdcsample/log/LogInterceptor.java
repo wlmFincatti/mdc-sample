@@ -14,7 +14,7 @@ public class LogInterceptor implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest httpRequest = (HttpServletRequest) servletRequest;
         MDC.put("request.ip", servletRequest.getRemoteAddr());
-        MDC.put("request.id", httpRequest.getHeader("x-request-id"));
+        MDC.put("request.id", httpRequest.getHeader("X-REQUEST-ID"));
         filterChain.doFilter(servletRequest, servletResponse);
     }
 }
